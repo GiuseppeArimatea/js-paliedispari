@@ -20,12 +20,11 @@ function isPalindromo(parola) {
     paroleReverse.push(parola[i])
     console.log(paroleReverse);
   }
-  for (var i = 0; i < arrayParola.length; i++) {
+
     if (arrayParola[i] == paroleReverse[i]) {
       return true;
     }
     else {
       return false;
     }
-  }
 }
